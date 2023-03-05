@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* ---header starts--- */
+/* Navigation bar */
+.logo-text {
+  font-family: "Roboto Slab", serif;
+  margin-left: 13px;
+  font-weight: 800;
+  font-size: 27px;
+  color: black;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: gold;
+  font-size: 22px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  position: fixed;
+}
+.nav-links {
+  font-size: 16px;
+  display: flex;
+  margin-right: 50px;
+  width: 33%;
+  justify-content: space-evenly;
+}
+.nav-link {
+  text-align: center;
+  color: black;
+  padding: 9px;
+}
+.logo {
+  margin-left: 50px;
+  display: flex;
+  padding: 2px;
+}
+.getStarted {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.logoIcon {
+  width: 5%;
+}
+/* content of header */
+.intro {
+  display: flex;
+  background-color: gold;
+  padding: 170px 150px 110px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+h1 {
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 100px;
+  font-weight: 520;
+}
+.introPara {
+  margin-top: 30px;
+  font-size: 23px;
+}
+.startReading {
+  width: 178px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding: 10px 14px;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.introPara,
+.startReading {
+  font-family: sans-serif;
+}
+/* header ends */
+/* main styling */
+/* main {
+  padding: 3%;
+} */
+.headingMain {
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.arrow {
+  height: 13px;
+  margin-right: 10px;
+}
+/* content card styling */
+.contentCard {
+  display: flex;
+  width: 30%;
+  margin-bottom: 50px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cardIntro {
+  display: flex;
+}
+.dateTime {
+  display: flex;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.firstCategory {
+  padding: 3%;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  padding-bottom: 0;
+}
+.serialNo {
+  color: rgba(230, 230, 230, 1);
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+.dateTime {
+  margin-top: 10px;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+}
+.date {
+  margin-right: 5px;
+}
+.nameCard {
+  color: rgba(41, 41, 41, 1);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.headingCard {
+  color: black;
+  font-weight: 700;
+}
+.cardIntro img {
+  width: 15px;
+  border-radius: 15px;
+  margin-right: 7px;
+}
+.articles {
+  padding: 5%;
+}
+
+/* new section starts */
+/* large article display section */
+.first {
+  display: flex;
+  align-items: center;
+}
+.first img {
+  height: 17px;
+  border-radius: 7px;
+  margin-right: 8px;
+}
+.headingD,
+.cont,
+.fourth {
+  font-size: 13px;
+  color: #757575;
+}
+.cont {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.headingD > span {
+  color: black;
+  font-weight: 600;
+}
+.cardContainer {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+.cardMainImg {
+  width: 215px;
+  height: 125px;
+}
+.second {
+  font-size: 21px;
+  color: black;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.mainCardCont {
+  font-family: sans-serif;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 17px;
+}
+.fourth {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourthSub {
+  display: flex;
+}
+.where {
+  color: #757575;
+  background-color: #75757523;
+  margin-left: 5px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.bookmarkIcon {
+  color: #757575;
+  margin-right: 10px;
+}
+.descriptiveArt {
+  display: flex;
+  flex-direction: column;
+  width: 57%;
+  padding-right: 0;
+}
+
+.articles {
+  display: flex;
+  font-family: sans-serif;
+}
+.asideheading {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.sticky {
+  width: 30%;
+  padding: 30px;
+  padding-top: 0;
+  padding-left: 10px;
+  align-self: flex-start;
+  /* why the above line is applied */
+  position: sticky;
+  top: 130px;
+}
+.discoverTopics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #75757524;
+}
+.discoverTopics a {
+  margin: 7px;
+  margin-left: 0;
+  padding: 10px;
+  border: 1px solid #75757549;
+  font-size: 14px;
+  color: #757575;
+}
+.footer {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer a {
+  margin: 5px 20px 9px 0px;
+  font-size: 14px;
+  color: rgba(117, 117, 117, 1);
+}
+/* correct image aspect ratio */

@@ -1,0 +1,19 @@
+notes 
+    - header contains 2 sections-- navigation bar and display bar for introduction 
+    - navigation bar contains 2 sections-- logo section and links section 
+    - flexbox applied in complete nav bar, logo section and links section separately
+
+flexbox
+    1. align items vs align content: 
+    align items aligns the items relative to each other when size of items are different
+    align content manages space between lines when items wrap 
+    2. flex flow
+    shorthand of flex-direction and flex wrap
+    3. justify content vs align items
+    Justify content: longer word so horizontal alignment
+    Align items: shorter word so vertical alignment
+
+2 march 2023
+doubts:
+        - how to maintain the image aspect ratio?
+        - what is align self and how does it help in positioning an element as sticky?  --main doubt  (line 245 css)
